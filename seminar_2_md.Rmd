@@ -1,5 +1,7 @@
 ---
 title: "seminar_2a"
+author: "Alex Marr"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
 
