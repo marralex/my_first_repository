@@ -2,29 +2,33 @@
 title: "seminar_2a"
 author: "Alex Marr"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
+#This is a HEADER
+##this is a smaller Header
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+* Fruits
+    * lemons
+    * papayas
+    * strawberry
+* Vegetables
+    + leaks
+    + potato
+    
+scary
 
-## R Markdown
+1. ocelots
+2. bears
+3. tigers
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Not scary
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+1. elephants
+2. monkeys
+3. rabbits
 
-```{r cars}
-summary(cars)
-```
+[This is a link to GitHub](https://github.com/)
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![This is an image of white dog](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiS8cmRsIHnAhW_IDQIHV9bCpoQjRx6BAgBEAQ&url=https%3A%2F%2Fdogtime.com%2Fdog-breeds%2Fwest-highland-white-terrier&psig=AOvVaw2IGEMn67KbP_rJocaBdnDo&ust=1579032358569872)
